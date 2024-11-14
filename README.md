@@ -9,5 +9,9 @@ The repo is structured as:
 -   `scripts` contains the R scripts used to download and clean data.
 
 
+# quick view of maps
+![map_example](https://github.com/user-attachments/assets/7bab8465-1a60-448a-a12d-d6a9d878b865)
+
+
 ## Statement on LLM usage
 Aspects of the code were written with the help of ChatGPT and the entire chat history is available in other/llms/usage.txt.
