@@ -16,7 +16,7 @@ bibliography: references.bib
 # Introduction
 This paper explores hawker centers in singapore and it's relationship with housing. @citeR was used for the creation of this page. httr2 was used to obtain data via API [@httr2] which was then saved as geojson files using sf package [@sf]. The sf package was then used to parse in spatial data from the saved geojson files. Tidyverse was used to manipulate data from geometry files [@tidyverse] and tmap package was used to generate and customise the desired maps [@tmap]. 
 
-The dataset was obtained from @onemap_api.
+The housing and geographical regions of singapore was obtained from @onemap_api, and the hawker geometry data was obtained from @singapore_hawker_centres.
 
 The rest of the paper includes the density map of either landed properties or 1 to 3 room hdb housing, layered with hawker centers. This allows us to geo-visualise the relationship between housing and hawker centers.
 ```{r}

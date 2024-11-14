@@ -7,7 +7,7 @@
 # Pre-requisites: Knowledge in tmap, sf and tidyverse packages
 
 
-#### Workspace setup ####
+#### Workspace setup #### 
 library(tidyverse)
 library(sf)
 library(tmap)
